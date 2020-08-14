@@ -411,20 +411,18 @@
                         </li>
                     </ul>
 
-                    <form class="subscribe_form">
-                        <div>
+                    <form id="form" class="form">
+                        <div class="form-control">
                             <input
                                 type="text"
-                                class="from"
+                                id="email"
                                 placeholder=" ✉  Start Your Journey"
                                 required
                             />
+                            <small>Error Message</small>
                         </div>
-                        <input
-                            type="submit"
-                            class="validateBtn subscribe_button"
-                            value="Validate"
-                        />
+
+                        <button class="subscribe_button">Subscribe</button>
                     </form>
 
                     <div class="footer_socials">
