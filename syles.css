@@ -798,7 +798,7 @@ input {
 }
 
 .subscribe_button {
-    width: 172px;
+    width: 100%;
     height: 44px;
     border: none;
     background: #c6cacc;
@@ -963,19 +963,29 @@ input {
     .banner_wrap {
     }
     .banner_text_title {
-        font-size: 2vw;
-        line-height: 10px;
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .shopping_bag {
+        display: none;
+    }
+    .banner_wrap {
+        display: block;
+        text-align: center;
     }
     .banner_text_discription {
-        font-size: 1.3vw;
+        font-size: 20px;
         margin-top: 0;
     }
     .banner_button {
-        height: 35px;
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        line-height: 1;
     }
     .anrifeatures_title {
         margin-top: 50px;
-        font-size: 5vw;
+        font-size: 50px;
         margin-bottom: 10px;
     }
     .anrifeatures_discription {
@@ -1065,9 +1075,9 @@ input {
         font-size: 2vw;
     }
     .subscribe_button {
-        font-size: 2vw;
+        font-size: 12px;
         width: 100px;
-        height: 10vw;
+        height: 43px;
     }
     .footer_socials img {
         width: 40px;
@@ -1099,9 +1109,7 @@ input {
     .form {
         padding: 0;
     }
-    .form button {
-        width: 100px;
-    }
+
     .navigation {
         width: 90%;
         margin: auto;
@@ -1679,6 +1687,16 @@ input {
     .nav__btn {
         display: block;
     }
+    .music_card {
+        margin-bottom: 120px;
+    }
+    .release_card {
+        margin-bottom: 120px;
+    }
+    .success_card {
+        margin-bottom: 120px;
+    }
+
     .nav__list {
         justify-content: space-evenly;
         align-items: center;
@@ -1738,21 +1756,7 @@ input {
 .form-control.error small {
     visibility: visible;
 }
-.form button {
-    width: 172px;
-    height: 44px;
-    border: none;
-    background: #c6cacc;
-    border-radius: 4px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0.15px;
-    color: #ffffff;
-    cursor: pointer;
-}
+
 .error input {
     border: #e74c3c 1px solid;
 }
